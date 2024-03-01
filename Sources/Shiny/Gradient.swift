@@ -42,26 +42,25 @@ public extension Gradient {
     
     static var dice: Gradient {
         Gradient(colors: [
-            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
-            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
-            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
-            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
-            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1)),
-            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
-            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
-            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
-            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
-            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1)),
-            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
-            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
-            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
-            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
-            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1)),
-            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
-            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
-            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
-            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
-            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1))
+            Color(#colorLiteral(red: 0, green: 0.0254901961, blue: 0.1960784314, alpha: 1)),
+            Color(#colorLiteral(red: 0.0215686274, green: 0.0392156863, blue: 0.2568627451, alpha: 1)),
+            Color(#colorLiteral(red: 0.0431372549, green: 0.0529411765, blue: 0.3176470588, alpha: 1)),
+            Color(#colorLiteral(red: 0.0598039216, green: 0.0568627451, blue: 0.3529411765, alpha: 1)),
+            Color(#colorLiteral(red: 0.0764705882, green: 0.0607843137, blue: 0.3882352941, alpha: 1)),
+            Color(#colorLiteral(red: 0.1166666667, green: 0.0754901961, blue: 0.4117647059, alpha: 1)),
+            Color(#colorLiteral(red: 0.1568627451, green: 0.0901960784, blue: 0.4352941176, alpha: 1)),
+            Color(#colorLiteral(red: 0.1745098039, green: 0.0990196078, blue: 0.4431372549, alpha: 1)),
+            Color(#colorLiteral(red: 0.1921568627, green: 0.1078431373, blue: 0.4509803922, alpha: 1)),
+            // Repeat the sequence
+            Color(#colorLiteral(red: 0, green: 0.0254901961, blue: 0.1960784314, alpha: 1)),
+            Color(#colorLiteral(red: 0.0215686274, green: 0.0392156863, blue: 0.2568627451, alpha: 1)),
+            Color(#colorLiteral(red: 0.0431372549, green: 0.0529411765, blue: 0.3176470588, alpha: 1)),
+            Color(#colorLiteral(red: 0.0598039216, green: 0.0568627451, blue: 0.3529411765, alpha: 1)),
+            Color(#colorLiteral(red: 0.0764705882, green: 0.0607843137, blue: 0.3882352941, alpha: 1)),
+            Color(#colorLiteral(red: 0.1166666667, green: 0.0754901961, blue: 0.4117647059, alpha: 1)),
+            Color(#colorLiteral(red: 0.1568627451, green: 0.0901960784, blue: 0.4352941176, alpha: 1)),
+            Color(#colorLiteral(red: 0.1745098039, green: 0.0990196078, blue: 0.4431372549, alpha: 1)),
+            Color(#colorLiteral(red: 0.1921568627, green: 0.1078431373, blue: 0.4509803922, alpha: 1))
         ])
     }
 
