@@ -27,7 +27,7 @@ public extension Gradient {
             Color(red: 1.0, green: 0.5, blue: 1.0, opacity: 0.4),
             Color(red: 0.0, green: 0.5, blue: 1.0, opacity: 0.2),
             Color(red: 0.5, green: 0.5, blue: 0.5, opacity: 0.2),
-            Color.clear
+//            Color.clear
         ])
     }
     
@@ -39,6 +39,23 @@ public extension Gradient {
             .red, .orange, .yellow, .green, .blue, .purple, .pink
         ])
     }
+    
+    static var dice: Gradient {
+        Gradient(colors: [
+            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
+            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
+            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
+            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
+            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1)),
+            // Repeat the sequence for the pattern
+            Color(#colorLiteral(red: 0, green: 0.05098039284348488, blue: 0.3921568691730499, alpha: 1)),
+            Color(#colorLiteral(red: 0.08627451211214066, green: 0.10588235408067703, blue: 0.6352941393852234, alpha: 1)),
+            Color(#colorLiteral(red: 0.15294118225574493, green: 0.12156862765550613, blue: 0.7764706015586853, alpha: 1)),
+            Color(#colorLiteral(red: 0.3137255012989044, green: 0.18039216101169586, blue: 0.8705882430076599, alpha: 1)),
+            Color(#colorLiteral(red: 0.3843137323856354, green: 0.21568627655506134, blue: 0.9019607901573181, alpha: 1))
+        ])
+    }
+
     
     static func matte(_ color: UIColor, intensity: CGFloat = 0.5) -> Gradient {
         let i = min(max(intensity, 0), 1)
