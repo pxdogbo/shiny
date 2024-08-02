@@ -40,30 +40,6 @@ public extension Gradient {
         ])
     }
     
-    static var dice: Gradient {
-        Gradient(colors: [
-            Color(#colorLiteral(red: 0, green: 0.8, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.02, green: 0.85, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.05, green: 0.9, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.07, green: 0.92, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.1, green: 0.95, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.12, green: 0.97, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.15, green: 1, blue: 0.2, alpha: 1)),
-            // Continue with similar adjustments to achieve a smooth gradient
-            Color(#colorLiteral(red: 0.17, green: 1, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.2, green: 1, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.23, green: 1, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.25, green: 1, blue: 0.2, alpha: 1)),
-            // Repeat the sequence or continue with other colors
-            Color(#colorLiteral(red: 0, green: 0.8, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.02, green: 0.85, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.05, green: 0.9, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.07, green: 0.92, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.1, green: 0.95, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.12, green: 0.97, blue: 0.2, alpha: 1)),
-            Color(#colorLiteral(red: 0.15, green: 1, blue: 0.2, alpha: 1))
-        ])
-    }
 
     
     static func matte(_ color: UIColor, intensity: CGFloat = 0.5) -> Gradient {
