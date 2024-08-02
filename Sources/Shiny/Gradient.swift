@@ -19,15 +19,11 @@ public extension Gradient {
     
     static var iridescent: Gradient {
         Gradient(colors: [
-            Color(red: 0.5, green: 0.5, blue: 0.5, opacity: 0.2),
-            Color(red: 0.0, green: 0.5, blue: 1.0, opacity: 0.2),
-            Color(red: 1.0, green: 0.5, blue: 1.0, opacity: 0.4),
-            Color(red: 0.5, green: 1.0, blue: 1.0, opacity: 0.6),
-            Color(red: 0.5, green: 1.0, blue: 1.0, opacity: 0.6),
-            Color(red: 1.0, green: 0.5, blue: 1.0, opacity: 0.4),
-            Color(red: 0.0, green: 0.5, blue: 1.0, opacity: 0.2),
-            Color(red: 0.5, green: 0.5, blue: 0.5, opacity: 0.2),
-//            Color.clear
+            Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
+            Color(red: 127 / 255, green: 135 / 255, blue: 224 / 255), // Purple
+            Color(red: 112 / 255, green: 112 / 255, blue: 211 / 255), // Deeper purple
+            Color(red: 110 / 255, green: 95 / 255, blue: 195 / 255),  // Darker purple
+            Color(red: 108 / 255, green: 74 / 255, blue: 176 / 255)   // Very dark purple
         ])
     }
     
