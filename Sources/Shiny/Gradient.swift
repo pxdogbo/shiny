@@ -130,7 +130,7 @@ internal extension NSColor {
     var blueValue: CGFloat{ return CIColor(color: self)?.blue ?? 0 }
     var alphaValue: CGFloat{ return CIColor(color: self)?.alpha ?? 0 }
 }
-
+//testingtesting
 public extension Gradient {
     
     static var iridescent: Gradient {
