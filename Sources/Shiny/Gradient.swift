@@ -109,9 +109,9 @@ public extension Gradient {
         Gradient(colors: [
             Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
             Color(red: 127 / 255, green: 135 / 255, blue: 224 / 255), // Purple
-            Color(red: 112 / 255, green: 112 / 255, blue: 211 / 255), // Deeper purple
-            Color(red: 110 / 255, green: 95 / 255, blue: 195 / 255),  // Darker purple
-            Color(red: 108 / 255, green: 74 / 255, blue: 176 / 255)   // Very dark purple
+//            Color(red: 112 / 255, green: 112 / 255, blue: 211 / 255), // Deeper purple
+//            Color(red: 110 / 255, green: 95 / 255, blue: 195 / 255),  // Darker purple
+//            Color(red: 108 / 255, green: 74 / 255, blue: 176 / 255)   // Very dark purple
         ])
     }
     static var rainbow: Gradient {
