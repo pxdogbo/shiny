@@ -20,10 +20,13 @@ public extension Gradient {
     static var iridescent: Gradient {
         Gradient(colors: [
             Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
-            Color(red: 127 / 255, green: 135 / 255, blue: 224 / 255), // Purple
-            Color(red: 112 / 255, green: 112 / 255, blue: 211 / 255), // Deeper purple
-            Color(red: 110 / 255, green: 95 / 255, blue: 195 / 255),  // Darker purple
-            Color(red: 108 / 255, green: 74 / 255, blue: 176 / 255)   // Very dark purple
+            Color(red: 192 / 255, green: 192 / 255, blue: 192 / 255), // Silver
+            Color(red: 255 / 255, green: 255 / 255, blue: 255 / 255)  // White
+//            Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
+//            Color(red: 127 / 255, green: 135 / 255, blue: 224 / 255), // Purple
+//            Color(red: 112 / 255, green: 112 / 255, blue: 211 / 255), // Deeper purple
+//            Color(red: 110 / 255, green: 95 / 255, blue: 195 / 255),  // Darker purple
+//            Color(red: 108 / 255, green: 74 / 255, blue: 176 / 255)   // Very dark purple
         ])
     }
     
@@ -107,7 +110,7 @@ public extension Gradient {
     //test text
         static var iridescent: Gradient {
             Gradient(colors: [
-//                Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
+                Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
                 Color(red: 192 / 255, green: 192 / 255, blue: 192 / 255), // Silver
                 Color(red: 255 / 255, green: 255 / 255, blue: 255 / 255)  // White
             ])
