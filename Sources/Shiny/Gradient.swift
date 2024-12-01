@@ -104,7 +104,7 @@ internal extension NSColor {
 }
 //testingtesting
 public extension Gradient {
-    
+    //test text
     static var iridescent: Gradient {
         Gradient(colors: [
             Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
