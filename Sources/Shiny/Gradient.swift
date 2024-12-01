@@ -107,7 +107,7 @@ public extension Gradient {
     //test text
         static var iridescent: Gradient {
             Gradient(colors: [
-                Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
+//                Color(red: 142 / 255, green: 157 / 255, blue: 237 / 255), // Light purple
                 Color(red: 192 / 255, green: 192 / 255, blue: 192 / 255), // Silver
                 Color(red: 255 / 255, green: 255 / 255, blue: 255 / 255)  // White
             ])
